@@ -2,7 +2,7 @@
   "name": "Diknaath — Lord of Directions",
   "short_name": "Diknaath",
   "description": "Vedic Vastu Shastra compass & directional science app by Manik Roy",
-  "start_url": "./diknaath.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

@@ -25,14 +25,14 @@
       "name": "Open Compass",
       "short_name": "Compass",
       "description": "Open the Vastu compass",
-      "url": "./diknaath.html#compass",
+      "url": "./index.html#compass",
       "icons": [{ "src": "icon-96x96.png", "sizes": "96x96" }]
     },
     {
       "name": "Vastu Report",
       "short_name": "Report",
       "description": "Generate full home Vastu report",
-      "url": "./diknaath.html#report",
+      "url": "./index.html.html#report",
       "icons": [{ "src": "icon-96x96.png", "sizes": "96x96" }]
     }
   ]

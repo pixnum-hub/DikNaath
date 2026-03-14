@@ -2,10 +2,10 @@
 // © Manik Roy
 
 const CACHE_NAME = 'diknaath-v1';
-const OFFLINE_URL = './diknaath.html';
+const OFFLINE_URL = './index.html';
 
 const PRECACHE_URLS = [
-  './diknaath.html',
+  './index.html',
   './manifest.json',
   './icon-192x192.png',
   './icon-512x512.png',
@@ -104,7 +104,7 @@ self.addEventListener('push', event => {
       icon: './icon-192x192.png',
       badge: './icon-96x96.png',
       vibrate: [100, 50, 100],
-      data: { url: data.url ?? './diknaath.html' }
+      data: { url: data.url ?? './index.html' }
     })
   );
 });
@@ -116,7 +116,7 @@ self.addEventListener('notificationclick', event => {
       for (const client of list) {
         if (client.url.includes('diknaath') && 'focus' in client) return client.focus();
       }
-      return clients.openWindow(event.notification.data?.url ?? './diknaath.html');
+      return clients.openWindow(event.notification.data?.url ?? './index.html');
     })
   );
 });
